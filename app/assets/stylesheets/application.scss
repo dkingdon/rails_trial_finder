@@ -1,0 +1,146 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+ */
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  background-color: #F6FAF5;
+}
+
+.jumbotron {
+  text-align: center;
+  background: url(http://www.hikingphoto.com/wp-content/uploads/2012/09/l7c4786-edit1.jpg) no-repeat center center;
+  background-size: cover;
+  color: #F6FAF5;
+  text-shadow: 5px 0px 3px black;
+  font-family: Francois One, sans-serif;
+}
+
+.jumbotron h1 {
+  font-size: 90px;
+  font-stretch: extra-expanded;;
+}
+
+.jumbotron p {
+  font-size: 30px;
+  font-stretch: expanded;
+}
+
+.container {
+
+  margin-top: -20px;
+}
+
+.modal {
+  max-height: 180px;
+  border: 1px solid white;
+  background-color: white;
+  margin: auto;
+  position: absolute;
+  left: 28%;
+  display: table;
+  text-align: center;
+  font-family: Montserrat, sans-serif;;
+}
+
+.modal-title {
+  font-size: 50px;
+}
+
+.modal-btn {
+  text-align: center;
+  margin-right: 45px;
+  margin-left: 45px;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+form {
+  margin-bottom: -30px;
+}
+
+p {
+  margin: 0 auto 0 auto;
+}
+
+h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-md-4 {
+  margin: 0px auto 5px auto;
+  width: 33.3333%;
+  float: left;
+}
+
+.underline {
+  border-bottom: .5px solid lightgrey;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#reset-btn {
+  text-align: center;
+  padding-bottom: -20px;
+}
+
+#trail-target {
+  max-height: 580px;
+  overflow-y: scroll;
+  background-color: #ffffff;
+}
+
+.btn-xs {
+  float: right;
+  margin-top: -41px;
+}
+
+.col-md-8 {
+  margin: 0 auto 5px auto;
+  width: 63.6666%;
+  float: right;
+}
+
+#map {
+  height: 580px;
+}
+
+ footer {
+   text-align: center;
+ }
+
+ /* - - - ADMIN PAGE - - - */
+
+#newTrailForm {
+   margin-top: 40px;
+   border: 2px solid black;
+   background-color: white;
+   margin-bottom: 30px;
+   padding: 10px 10px;
+ }
+
+.admin h1 {
+  text-align: center;
+}
